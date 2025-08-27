@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import { useProductStore } from '../store/product';
 import ProductCard from '../components/ProductCard';
 
-const Homepage = () => {
+const HomePage = () => {
   const {fetchProducts, products} = useProductStore();
  
   useEffect(()=>{
@@ -51,4 +51,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default HomePage
